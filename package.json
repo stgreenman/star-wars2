@@ -1,0 +1,22 @@
+{
+  "name": "star-wars",
+  "version": "1.0.0",
+  "description": "Star wars API site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stgreenman/star-wars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stgreenman/star-wars/issues"
+  },
+  "homepage": "https://github.com/stgreenman/star-wars#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

@@ -1,0 +1,23 @@
+.main .pagination-container{
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+.main .pagination {
+    display: inline-block;
+    font-family: "raleway-regular", arial;
+    width: auto;
+    height: auto;
+    letter-spacing: .01em;
+    cursor: pointer;
+    margin: 0 4px 7px 0;
+    color: #454545!important;
+    padding: 7px 15px;
+    margin-top: 17px;
+}

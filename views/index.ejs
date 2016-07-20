@@ -1,0 +1,27 @@
+
+    <ul class="list-group">
+
+    </ul>
+
+
+    <ul class="pagination">
+
+      <% if (currentPage > 1) { %>
+        <button onclick="<% currentPage-- %>;
+          window.location='/students/<%= currentPage %>'">
+        Previous Page </button>
+      <% }%>
+
+
+      <script>
+        console.log(<%= currentPage %>)
+      </script>
+
+    <%= currentPage %> hello
+
+      <% if (currentPage < 10) { %>
+        <button onclick="<% currentPage++ %>;
+          window.location='/students/<%= currentPage %>'">
+        Next Page </button>
+      <% } %>
+    </ul>

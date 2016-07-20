@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+<div class="container">
+  <ul class="pager">
+    <% if (previous){ %>
+      <li class="previous"><a href="<%- previous %>">Previous</a></li>
+    <% } %>
+    <% if (next){ %>
+      <li class="next"><a href="<%- next %>">Next</a></li>
+    <% } %>
+  </ul>
+</div>
